@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: src/_data/tokens.json
+  label: Theme settings
 - type: heading
   label: Globals
 - type: heading
@@ -15,9 +18,6 @@ sections:
   match: "*.md"
   templates:
   - post
-- type: document
-  path: src/_data/tokens.json
-  label: Theme settings
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
