@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/_data/tokens.json
-  label: Theme settings
 - type: heading
   label: Globals
 - type: heading
