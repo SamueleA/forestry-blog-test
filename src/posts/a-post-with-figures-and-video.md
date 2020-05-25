@@ -2,9 +2,7 @@
 title: My First Blog Post!
 date: 2019-06-18
 tags:
-- demo-content
-- blog
-- media
+- Hello
 
 ---
 Hello World Welcome to my Blog post!!
